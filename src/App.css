@@ -1,0 +1,42 @@
+.App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.Container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(210, 214, 210);
+  border-radius: 10px;
+  margin: auto;
+  background-color: azure;
+}
+
+.InsideContainer{
+  padding: 20px;
+  font-size: 30px;
+}
+
+.AuthorStyling{
+  position: relative;
+  right: 90%;
+}
+
+#author{
+  text-align: end;
+}
+h2{
+  font-family: Courgette;
+}
+h6 {
+  font-family: 'Times New Roman', Times, serif;
+}
+button {
+  align-items: flex-end;
+}
